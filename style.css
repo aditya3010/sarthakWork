@@ -1,0 +1,145 @@
+/* * {
+    box-sizing: border-box;
+    height: 70%;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+  }  
+
+  .column {
+    float: left;
+    width: 90%;
+   
+    padding: 0 10px;
+    margin-left: 60px;
+  }
+
+  .row {margin: 0 -5px;
+    height: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+
+  .card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    
+    
+  }
+
+  .card img{
+      float: left;
+      max-width: 5%;
+      height: auto;
+  }
+
+  h3{
+      text-align: left;
+      
+      font-size: medium;
+      margin-top: 6px;
+      margin-left: 60px;
+      font-family:'Times New Roman', Times, serif;
+      
+  }
+
+  p{
+      text-align: left;
+      margin-top: -40px;
+
+  }
+
+  
+
+  @media screen and (max-width: 700px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin: 0px;
+      margin-bottom: 20px;
+      
+    }
+    
+  } */
+
+  html{
+    margin: 0;
+    padding: 0;
+  }
+  .background-color{
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    border-radius: 30px;
+    
+    /* background-color:; */
+    height: 20vh;
+    /* position: relative;     */
+
+    
+  }
+  .background-color h3{
+    text-align: center;
+    padding-top: 30px;
+    
+  }
+
+
+  
+  
+  .card{
+    display: flex;
+    width: 90%;
+    height: 120px;
+    margin: 2px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+    margin-top: -70px;
+    position: relative;
+    
+    
+  }
+
+  .user-img{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    margin: 0 10px;
+  }
+
+  .text-box{
+    width: 30%;
+  }
+
+  @media screen and (max-width: 650px) {
+    .user-img {
+      max-width: 10%;
+      height: auto;
+      margin-top: -40px;
+      /* width: 100%;
+      display: block;
+      margin: 0px;
+      margin-bottom: 20px; */
+      
+    }
+
+    .text-box p{
+      font-size:small;
+      text-align: left;
+      
+
+    }
+    .text-box h3{
+      font-size: small;
+      margin-top: 30px;
+    }
+
+  }
+
+
